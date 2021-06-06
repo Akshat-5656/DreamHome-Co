@@ -1,0 +1,115 @@
+/* Navbar */
+#navbar{
+    flex-direction: column;
+    height: 72px;
+}
+
+#navbar ul {
+    margin-left: -3px;
+    width: 20px;
+    display: relative;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 4px 1px;
+   
+}
+
+/* HOME */
+
+#home{
+    height: 255px;
+}
+#home h1{
+    padding: 4px 5px;
+    font-size: 1.5rem;
+    margin-top: -78px;
+    
+}
+#home p{
+    font-size: 0.8rem;
+}
+
+
+/* PROPPERTIES */
+
+#properties{
+    flex-direction: column;
+    height: 956px;
+}
+
+.property{
+    flex-direction: column;
+}
+
+#properties h1{
+    font-size: 1.5rem;
+    margin-top: 3px;
+}
+#properties .box{
+    height:300px;
+    width: 160px;
+    margin-left: 10px;
+}
+#properties .box img{
+    height: 130px;
+    margin: -6px -40px;
+    padding: 7px 18px;
+
+}
+#properties .property .box h2{
+    padding: 0px 0px;
+    margin: 7px -20px;
+    font-size: 1.2rem;
+}
+
+.property .box p{
+    display: none;
+}
+.property .box .btn{
+    margin: 15px -20px;
+    padding: 9px 8px;
+
+}
+
+/* AGENTS */
+#agents{
+    height: 946px;
+}
+.agents h1{
+    padding: 7px 5px;
+    margin: 9px 4px;
+    font-size: 1.5rem;
+
+}
+
+.agent{
+    flex-direction: column;
+}
+
+.box-agent img{
+    margin: 14px 70px;
+    padding: 0px 4px;
+    height: 150px;
+}
+
+.box-agent h2{
+    margin: 1px 70px;
+    padding: 6px 2px;
+    font-size: 1.2rem;
+}
+
+.box-agent .button{
+    padding: 8px 7px;
+    margin: 5px 71px;
+
+}
+
+/* CONTACT */
+
+#contact{
+    height: 655px;
+    background: none;
+    opacity: 100%;
+    
+}
