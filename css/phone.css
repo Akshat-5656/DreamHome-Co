@@ -113,3 +113,25 @@
     opacity: 100%;
     
 }
+
+
+/* MEDIA QUERY */
+@media (max-width:411px){
+    #navbar ul li a{
+       
+        margin: 10px 9px;
+    }
+}
+@media (max-width:375px){
+    #navbar{
+       
+        margin: 0px -1px;
+    }
+}
+
+@media  (max-width:375px){
+    #navbar ul li a{
+        padding:10px 10px;
+        margin: 1px 6px;
+    }
+}
