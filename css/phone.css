@@ -135,3 +135,24 @@
         margin: 2px 5px;
     }
 }
+
+@media (min-width:767px) {
+    #navbar ul li a{
+        padding: 8px;
+    }
+}
+
+@media (min-width:767px){
+    #navbar ul{
+        padding: -2px;
+        margin-left: 145px;
+    }
+}
+
+
+@media (min-width:1024px) {
+    #navbar ul{
+    margin-left: 280px;
+    }
+}
+
